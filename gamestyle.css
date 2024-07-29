@@ -1,0 +1,21 @@
+main{
+    background-color: #232230;
+}
+
+#WoodenEdgeBox{
+    margin-inline: auto;
+    min-width: 800px;
+    max-width: 70%;
+    height: 600px;
+    background-color: #421010;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#GreenInnerBox{
+    background-color: green;
+    width: 90%;
+    height: 90%;
+}
