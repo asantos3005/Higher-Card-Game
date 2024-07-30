@@ -1,5 +1,21 @@
+*{
+    font-family: Garamond, Helvetica;
+}
+
 main{
     background-color: #232230;
+}
+
+h1{
+    font-size: 60px;
+}
+
+header{
+    background-color: #191822;
+    height: 100px;
+    width: auto;
+    color: whitesmoke;
+    text-align: center;
 }
 
 #WoodenEdgeBox{
@@ -11,11 +27,40 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 #GreenInnerBox{
     background-color: green;
     width: 90%;
     height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#cardDeckContainer{
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    font-size: 40px;
+}
+
+#playerOne{
+    width: 10px;
+    height: 10px;
+    align-self: flex-end;
+
+}
+
+#drawDeck{
+    width: 10px;
+    height: 10px;
+    align-self: flex-start;
+}
+
+#playerBot{
+    width: 10px;
+    height: 10px;
+    align-self: flex-end;
+
 }
